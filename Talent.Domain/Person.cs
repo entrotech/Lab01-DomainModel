@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Talent.Domain
 {
+    /// <summary>
+    /// A Person object representing an Actor, Director, etc.
+    /// </summary>
     public class Person
     {
 

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Talent.Domain
 {
+    /// <summary>
+    /// Association between a Show and a Genre
+    /// </summary>
     public class ShowGenre
     {
         #region Fields

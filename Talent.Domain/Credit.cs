@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Talent.Domain
 {
+    /// <summary>
+    /// Represent an association between a Person and a Show, giving them credit for 
+    /// their role in the Show.
+    /// </summary>
+    /// <remarks>
+    /// Character is only really applicable for the Actor CreditType.
+    /// </remarks>
     public class Credit
     {
         #region Fields

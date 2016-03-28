@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Talent.Domain
 {
-    public class LookupBase 
+    /// <summary>
+    /// Base class for various "lookup table" type classes.
+    /// </summary>
+    public abstract class LookupBase 
     {
 
         #region Fields
