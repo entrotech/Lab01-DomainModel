@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Talent.Domain
+﻿namespace Talent.Domain
 {
     /// <summary>
     /// A file that can be attached to a Person.

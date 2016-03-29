@@ -18,7 +18,6 @@ namespace Talent.Domain
         private string _title;
         private int? _lengthInMinutes;
         private DateTime? _releaseDate;
-        private DateTime? _dvdReleaseDate;
         private int? _mpaaRatingId;
         private List<ShowGenre> _showGenres = new List<ShowGenre>();
         private List<Credit> _credits = new List<Credit>();

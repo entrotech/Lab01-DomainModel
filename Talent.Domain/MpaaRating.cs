@@ -19,5 +19,10 @@ namespace Talent.Domain
             set { _description = value; }
         }
 
+        public override string ToString()
+        {
+            return Code;
+        }
+
     }
 }

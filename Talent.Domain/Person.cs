@@ -26,6 +26,7 @@ namespace Talent.Domain
         private int _hairColorId;
         private int _eyeColorId;
         private List<Credit> _credits = new List<Credit>();
+        private List<PersonAttachment> _personAttachments = new List<PersonAttachment>();
 
         #endregion
 
@@ -94,6 +95,11 @@ namespace Talent.Domain
         public List<Credit> Credits
         {
             get { return _credits; }
+        }
+
+        public List<PersonAttachment> PersonAttachments
+        {
+            get { return _personAttachments;  }
         }
 
         #endregion
